@@ -3,10 +3,10 @@ pyArchOps/SKELETON
 =====================
 
 
-.. image:: https://img.shields.io/pypi/v/pyarchops_SKELETON.svg
-        :target: https://pypi.python.org/pypi/pyarchops_SKELETON
+.. image:: https://badge.fury.io/py/pyarchops-SKELETON.svg
+        :target: https://pypi.python.org/pypi/pyarchops-SKELETON
 
-.. image:: https://img.shields.io/gitlab/pipeline/gitlab-org/gitlab-ce/master.svg
+.. image:: https://img.shields.io/gitlab/pipeline/pyarchops/SKELETON/next-release.svg
         :target: https://gitlab.com/pyarchops/SKELETON/pipelines
 
 .. image:: https://readthedocs.org/projects/SKELETON/badge/?version=latest
@@ -29,6 +29,14 @@ Features
 --------
 
 * SKELETON
+
+Instalation
+--------------
+
+.. code-block:: console
+
+    $ pip install pyarchops-SKELETON
+
 
 Usage
 --------
