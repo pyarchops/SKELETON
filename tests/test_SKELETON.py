@@ -5,7 +5,7 @@
 
 from suitable import Api
 from pyarchops_SKELETON import SKELETON
-from tests.test_helpers import ephemeral_docker_container
+from pyarchops_helpers.helpers import ephemeral_docker_container
 
 
 def test_SKELETON_using_docker():

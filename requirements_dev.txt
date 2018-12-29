@@ -101,3 +101,4 @@ wcwidth==0.1.7            # via curtsies, prompt-toolkit
 webencodings==0.5.1       # via bleach
 wheel==0.32.3
 wrapt==1.10.11            # via astroid
+pyarchops-helpers
