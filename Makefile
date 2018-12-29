@@ -75,7 +75,7 @@ docs: ## generate Sphinx HTML documentation, including API docs
 	sphinx-apidoc -o docs/ pyarchops_SKELETON
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
-	echo '$(BROWSER) docs/_build/html/index.html'
+	echo 'to see the docs execute: $(BROWSER) docs/_build/html/index.html'
 
 
 servedocs: docs ## compile the docs watching for changes
