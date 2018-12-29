@@ -2,6 +2,16 @@
 pyArchOps/SKELETON
 =====================
 
+Clone this repository and rename all existing files:
+
+.. code-block:: console
+    $ export MY_NEW_MODULE=stuff
+    $ grep -r SKELETON . | awk '{ print $1 }' | cut -f 1 -d ':' | sort | uniq | xargs -i sed -i 's/SKELETON/$MY_NEW_MODULE/g' {}
+    $ mv pyarchops_SKELETON/ pyarchops_$MY_NEW_MODULE
+    $ mv tests/test_SKELETON.py tests/test_$MY_NEW_MODULE.py
+    $ mv docs/pyarchops_SKELETON.rst docs/pyarchops_$MY_NEW_MODULE.rst
+
+Then delete this ^ from the README
 
 .. image:: https://badge.fury.io/py/pyarchops-SKELETON.svg
         :target: https://pypi.python.org/pypi/pyarchops-SKELETON
